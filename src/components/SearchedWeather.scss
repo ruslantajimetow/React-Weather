@@ -1,0 +1,30 @@
+.searched {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  &_wrapper {
+    display: grid;
+    grid-template-columns: 150px auto;
+    gap: 25px;
+    padding: 20px 20px 20px 0;
+    background-color: #fcf9f9;
+    box-shadow: 10px 8px 40px -12px rgba(0, 0, 0, 0.57);
+    border-radius: 10px;
+  }
+  &_name {
+    height: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+      display: block;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
